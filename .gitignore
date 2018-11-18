@@ -1,0 +1,8 @@
+BUILD
+RPMS
+SRPMS
+BUILDROOT
+*.swp
+*.tar.gz
+*.tgz
+
