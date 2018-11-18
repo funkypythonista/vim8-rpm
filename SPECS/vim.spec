@@ -1,6 +1,6 @@
 %define debug_package %{nil}
 
-%define patchlevel 0530
+%define patchlevel 0535
 %define baseversion 8.1
 %define vimdir vim81
 %define vimdirsrc vim-%{baseversion}.%{patchlevel}
