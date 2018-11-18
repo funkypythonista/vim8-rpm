@@ -8,11 +8,9 @@ Python3を有効にしたREHL6/7用のvim8。別名(vim8)でインストール�
 vimver=8.1.0530
 
 # For RHEL7
-curl https://github.com/funkypythonista/vim8-rpm/releases/download/${vimver}/vim8-${vimver}-1.el7.x86_64.rpm \
--L -O vim8-${vimver}-1.el7.x86_64.rpm
+curl https://github.com/funkypythonista/vim8-rpm/releases/download/${vimver}/vim8-${vimver}-1.el7.x86_64.rpm -L -O
 # For RHEL6
-curl https://github.com/funkypythonista/vim8-rpm/releases/download/${vimver}/vim8-${vimver}-1.el6.x86_64.rpm \
--L -O vim8-${vimver}-1.el6.x86_64.rpm
+curl https://github.com/funkypythonista/vim8-rpm/releases/download/${vimver}/vim8-${vimver}-1.el6.x86_64.rpm -L -O
 
 sudo yum install vim8-${vimver}-1.el*.x86_64.rpm
 ```
