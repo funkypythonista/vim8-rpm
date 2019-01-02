@@ -5,7 +5,7 @@ Vim8 with enabling Python3 for RHEL6/7. It will be installed as vim8 and it neve
 ## Install
 
 ```
-vimver=8.1.0535
+vimver=8.1.0678
 
 # For RHEL7
 curl https://github.com/funkypythonista/vim8-rpm/releases/download/${vimver}/vim8-${vimver}-1.el7.x86_64.rpm -L -O
